@@ -1,0 +1,105 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+
+.header {
+    background-color: #222222;
+    height: 288px;
+    padding: 16px 0 0 0;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.half-card {
+    width: 600px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.card-row {
+    display: flex!important;
+    justify-content: space-evenly!important;
+    margin-bottom: 12px!important;
+    text-align: center;
+}
+
+.menu {
+    height: 112px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: 20px auto 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+
+.Select-control {
+    width: 256px!important;
+    height: 48px!important;
+}
+
+.Select-box {
+    width: 256px!important;
+    height: 48px!important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px!important;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px!important;
+}
+
+.menu-title {
+    margin-bottom: 6px!important;
+    font-weight: bold!important;
+}
+
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+
+img::before {
+    content: "";
+    display: none;
+    width: 30px;
+    height: 30px;
+}

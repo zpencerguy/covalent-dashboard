@@ -1,0 +1,5 @@
+.env
+*.pyc
+.idea
+__pycache__
+/data/cache
