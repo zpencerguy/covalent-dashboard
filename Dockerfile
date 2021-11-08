@@ -21,4 +21,4 @@ WORKDIR /covalent
 
 EXPOSE $PORT_NUMBER
 
-CMD ["python", "dash_app.py"]
+CMD ["python", "app.py"]
